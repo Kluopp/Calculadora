@@ -30,7 +30,7 @@ def multiplicacion(a, b):
 
 def division(a, b):
     if b == 0:
-        print("Error: División por cero no permitida.")
+        print("No se puede dividir por cero.")
         return None
     return a / b
 
